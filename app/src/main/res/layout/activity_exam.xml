@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hardwareAccelerated="false"
+    tools:context="test.com.question.ExamActivity"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/fLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" />
+
+    <FrameLayout
+        android:id="@+id/fLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/NextFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_send_white_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/NextFab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        app:backgroundTint="@android:color/holo_green_light"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <!--
+
+
+        <android.support.design.widget.FloatingActionButton
+        android:id="@+id/NextFab"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="375dp"
+        android:layout_marginTop="450dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_menu_slideshow" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        >
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/HomeFab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabSize="mini"
+            app:rippleColor="@color/colorAccent"
+            app:srcCompat="@android:drawable/ic_menu_myplaces"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"/>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/RepeatFab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabSize="mini"
+            app:rippleColor="@color/colorAccent"
+            app:srcCompat="@android:drawable/ic_menu_rotate"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/SubmitFab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabSize="mini"
+            app:rippleColor="@color/colorAccent"
+            app:srcCompat="@android:drawable/ic_menu_upload"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+    </LinearLayout>
+
+    -->
+
+</RelativeLayout>
